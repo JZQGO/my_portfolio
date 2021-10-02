@@ -447,6 +447,10 @@ textarea {
   padding: 5px 15px;
 }
 
+.far {
+  color: red;
+}
+
 .contact-about {
   width: 50%;
   margin: 0 20px;
