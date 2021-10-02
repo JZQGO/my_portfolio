@@ -333,6 +333,7 @@ h3::before,h3::after {
   }
 
   .header-menu-right a {
+    font-size: 10px
     padding: 2px;
   }
  
