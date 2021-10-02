@@ -316,6 +316,14 @@ h3::before,h3::after {
 }
 
 @media (max-width: 500px) {
+  .header-menu-right li {
+    font-size: 5px;
+  }
+  
+  .header-menu-right a {
+    padding: 2px;
+  }
+  
   .top-description p  {
     font-size: 10px;
   }
