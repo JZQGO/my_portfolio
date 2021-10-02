@@ -331,9 +331,12 @@ h3::before,h3::after {
   .header-logo {
     margin: 0 auto;
   }
+  
+  .header-menu-right li {
+    font-size: 5px;
+  }
 
   .header-menu-right a {
-    font-size: 5px
     padding: 2px;
   }
  
