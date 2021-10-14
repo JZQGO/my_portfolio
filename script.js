@@ -67,4 +67,16 @@ $(function() {
       }, 300);
     }
   );
+  $('.iconmark').hover(
+    function(){
+      $(this).children('.fas').animate({
+        'font-size':'15px'
+      }, 300);
+    },
+    function(){
+      $(this).children('.fas').animate({
+        'font-size':'14px'
+      }, 300);
+    }
+  );
 })
