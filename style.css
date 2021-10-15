@@ -257,15 +257,14 @@ h3::before,h3::after {
   display: flex;
 }
 
-@media (max-width: 1980px) {
-  .menu {
-    width: 25%;
-  }
-
-  .text-contents p {
-  width: 85%;
-  }
+.menu {
+  width: 25%;
 }
+
+.text-contents p {
+width: 85%;
+}
+
 
 @media (max-width: 1190px) {
   .menu-wrapper {
@@ -320,6 +319,12 @@ h3::before,h3::after {
   .header-logo, .top-description p  {
     font-size: 15px;
   }
+  
+  h2::before, h2::after, h3::before, h3::after {
+    width: 50px;
+    margin: 5px;
+  } 
+
   .header-menu-right li {
     font-size: 8px;
   }
@@ -458,10 +463,6 @@ textarea {
   margin: 0 20px;
 }
 
-.fas {
-  margin-right: 5px;
-}
-
 footer {
   background-color: rgb(253, 228, 5);
   text-align: center;
@@ -493,14 +494,14 @@ footer {
   margin-bottom: 0;
 }
 
-.next a i p, .fas {
-  display: inline-block;
+.next a {
   color: rgb(136, 7, 7);
-  padding-left: 5px;
-  margin: 0;
+  width: 10px;
+  height: 10px;
+  font-size: 1.1em;
+  cursor: pointer;
 }
 
 .next .fas {
-  width: 200px;
-  height: 10px;
+  transform: rotate(90deg);
 }
