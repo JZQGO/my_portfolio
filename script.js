@@ -70,12 +70,12 @@ $(function() {
   $('.iconmark').hover(
     function(){
       $(this).children('.fas').animate({
-        'font-size':'15px'
+        'font-size':'20px'
       }, 300);
     },
     function(){
       $(this).children('.fas').animate({
-        'font-size':'14px'
+        'font-size':'15px'
       }, 300);
     }
   );
